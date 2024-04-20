@@ -152,8 +152,8 @@ td, th{
 }
 
 .logop {
-    width: 400px;
-    height: 175px;
+    width: 35%;
+    height: 25%px;
 }
 
 .login-link a{
@@ -167,8 +167,8 @@ td, th{
     text-decoration: none;*/
     
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
     padding: 10px;
     margin-bottom: 15px;
     background-color: #007bff;
