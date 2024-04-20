@@ -1,1 +1,1 @@
-hola este es el repositorio de la pagina de samtoto soluciones
+hola este es el repositorio de la pagina de samtot soluciones
