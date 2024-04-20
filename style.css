@@ -156,18 +156,29 @@ td, th{
     height: 175px;
 }
 
-.login-link {
-    position: absolute;
+.login-link a{
+    /*position: absolute;
     top: 10px;
     right: 10px;
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
-    text-decoration: none;
+    text-decoration: none;*/
+    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
 }
 
-.login-link:hover {
+.login-link a:hover {
     background-color: #0056b3;
 }
 
