@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contac-Samtot</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img class="logop" src="imagenes/stot-log.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="product.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+      <section class="prin">
+        <form>
+            <label for="nomape">Nombre y Apellido</label>
+            <input type="text" id="nomape" class="ip" required>
+
+            <label for="celec">Correo Electronico</label>
+            <input type="email" id="celec" class="ip" required placeholder="email@dom.com">
+
+            <label for="tel">Telefono</label>
+            <input type="tel" id="tel" class="ip" required placeholder="(00) 0000 0000">
+            
+            <label for="mens">Mensaje</label>
+            <textarea id="mens" cols="70" rows="10" class="ip" required5></textarea>
+
+            <fieldset>
+
+                <legend>Como te contactamos ?...</legend>
+
+                <label for="remail"><input type="radio" value="email" id="remail" name="contacto">E-mail</label>
+                
+                <label for="rtel"><input type="radio" value="tel" id="rtel" name="contacto">Telefono</label>
+                
+                <label for="rwhats"><input type="radio" value="whats" id="rwhats" name="contacto" checked>Whatsapp</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Horario dispopnible ?</legend>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+
+            <label class="chec"><input type="checkbox" checked>Recibir novedades ?</label>
+            <input type="submit" value="Enviar Datos" class="enviar">
+        </form>
+      </section>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia </th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunes </td>
+                    <td>8:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Miercoles </td>
+                    <td>08:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08:00-20:00</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </main>
+
+    <footer>
+        <img class="pielog" src="imagenes/stot-log1.png">
+        <p class="footp"> &copy Derechos Reservados blah blah...2023</p>
+    </footer>
+
+</body>
+
+</html>
+

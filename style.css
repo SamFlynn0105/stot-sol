@@ -1,0 +1,306 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    padding: 20px 0;
+    background: linear-gradient(white, gray);
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #2a47dc;
+}
+
+.prod{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.prod li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    
+    border-radius: 10px;
+}
+
+.prod li:hover{
+    border-color: #ff3d3d;
+}
+
+.prod li:active{
+    border-color: #0ab169;
+}
+
+.prod h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.prod li:hover h2{
+    font-size: 33px;
+}
+
+.prod-des{
+    font-size: 18px;
+}
+
+.prod-pre{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.footp{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.ip{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.chec{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkblue;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background-color: #02203b;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.logop {
+    width: 400px;
+    height: 175px;
+}
+
+.login-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    background-color: #0056b3;
+}
+
+.pielog {
+    width: 240px;
+    height: 325px;
+}
+
+/*css para home*/
+
+.banner{
+    width: 100%;
+    /*width: 600px;*/
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.prin{
+    padding: 3em;
+    background: #ffffff;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titprin{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: rgba(150,0,0,50%);
+    text-shadow: 2px 2px 10px #4590f3;
+}
+
+.titprin::first-letter{
+    font-weight: bold;
+
+}
+
+p::first-line{
+    font-style: italic;
+}
+
+.titprin::before{
+    content: "[";
+}
+
+.titprin::after{
+    content: "]";
+}
+
+.prin p{margin: 0 0 1em;}
+
+.prin strong{font-weight: bold;}
+
+.prin em{font-style: italic;}
+
+.uten{
+    width: 140px; 
+    float: left; 
+    margin: 0 10px 10px 0;  
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(white, gray);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapcont{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.dife{
+    padding: 3em 0;
+    background: #c6c3c3;
+    /*box-shadow: inset 0 0 30px #ff3d3d;*/
+}
+
+.contdif{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listdif{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{line-height: 1.5;}
+
+.items::before{
+    content: "*";
+}
+
+.items:first-child{font-weight: bold;}
+
+.imgdif{
+    width: 60%;
+    transition: 200ms;
+    box-shadow: 10px 10px 10px #888787;
+}
+
+.imgdif:hover{
+    opacity: 30%;
+}
+
+.video{
+    width: 560px;
+    margin: 1em auto;
+}
+
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja, .prin, .mapcont, .contdif, .video{
+       width: auto;
+    }
+
+    .listdif, .imgdif{
+        width: 100%;
+    }
+}
