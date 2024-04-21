@@ -39,6 +39,7 @@ nav a:hover{
 
 .prod{
     width: 940px;
+    position: relative;
     margin: 0 auto;
     padding: 50px;
 }
@@ -49,13 +50,13 @@ nav a:hover{
     width: 30%;
     height: 300px;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 1.5% 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
-    
+
     border-radius: 10px;
 }
 
@@ -68,12 +69,12 @@ nav a:hover{
 }
 
 .prod h2{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
 }
 
 .prod li:hover h2{
-    font-size: 33px;
+    font-size: 30px;
 }
 
 .prod-des{
@@ -328,4 +329,11 @@ td, th{
     .listdif, .imgdif{
         width: 100%;
     }
+
+    .prod li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px; /* Espaciado entre elementos */
+      }
 }
+
