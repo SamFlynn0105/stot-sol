@@ -47,6 +47,7 @@ nav a:hover{
     display: inline-block;
     text-align: center;
     width: 30%;
+    height: 300px;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
@@ -149,6 +150,7 @@ thead{
 td, th{
     border: 1px solid #000000;
     padding: 8px 15px;
+    text-align: center;
 }
 
 .logop {
@@ -211,28 +213,39 @@ td, th{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    color: rgba(150,0,0,50%);
-    text-shadow: 2px 2px 10px #4590f3;
+    color: rgb(7, 20, 86);
+    text-shadow: 2px 2px 10px #000000;
 }
 
-.titprin::first-letter{
+.titprin::first-line{
     font-weight: bold;
 
 }
 
-p::first-line{
+/*p::first-line{
     font-style: italic;
-}
+}*/
 
-.titprin::before{
+/*.titprin::before{
     content: "[";
 }
 
 .titprin::after{
     content: "]";
-}
+}*/
 
 .prin p{margin: 0 0 1em;}
+
+.prin h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.prin li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
 
 .prin strong{font-weight: bold;}
 
